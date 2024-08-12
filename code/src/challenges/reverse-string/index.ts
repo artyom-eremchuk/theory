@@ -15,7 +15,7 @@
 // }
 
 // ========== 3 ==========
-function reverse(str: string): string {
+export function reverse(str: string): string {
 	return str
 		.split("")
 		.reduce((reversed, character) => character + reversed, "");

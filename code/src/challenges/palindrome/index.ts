@@ -6,7 +6,7 @@
 // }
 
 // ========== 2 ==========
-function palindrome(str: string): boolean {
+export function palindrome(str: string): boolean {
 	return str.split("").every((char, i) => {
 		return char === str[str.length - i - 1];
 	});
