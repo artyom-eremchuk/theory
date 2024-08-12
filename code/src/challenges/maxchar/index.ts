@@ -1,3 +1,4 @@
+// ========== 1 ==========
 interface CharMap {
 	[key: string]: number;
 }
